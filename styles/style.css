@@ -1,1 +1,17 @@
-/* место для вашего кода */
+/*как работать с высотой на мобилках*/
+.header{
+  height:293px;
+  background-color: rgb(255, 179, 255);
+}
+.menu ul{
+display: flex;
+gap: 13px;
+}
+
+.li{
+  list-style: circle;
+}
+
+.li_not_circle{
+  list-style: none;
+}
