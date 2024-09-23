@@ -1,17 +1,51 @@
 /*как работать с высотой на мобилках*/
 .header{
+  padding-right: 38px; 
   height:293px;
-  background-color: rgb(255, 179, 255);
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
 }
-.menu ul{
-display: flex;
-gap: 13px;
+.header_menu{
+  padding-right: 10px;
+  position: relative;
+  left: 2px;
 }
-
-.li{
+.header__links-list{
+  display: flex;
+  gap: 30px;
   list-style: circle;
 }
 
-.li_not_circle{
+.header__links-list-item_no-bullit{
   list-style: none;
+}
+
+.header__link{
+  text-decoration: underline 1px;
+  text-underline-offset: 3px;
+  letter-spacing: 1%;
+}
+
+.header__link_active{
+  text-decoration: none;  
+}
+.address{
+  line-height: 24.3px;
+  letter-spacing: 0%;
+}
+.header__address{
+  padding-left: 148px;
+}
+.address a{
+  line-height: 24.3px;
+  letter-spacing: 1%;
+  text-decoration: underline 0.1px;
+  text-underline-offset: 3px;
+}
+.header__logo-image{
+  width: 148px;
+  height: 105px;
 }
