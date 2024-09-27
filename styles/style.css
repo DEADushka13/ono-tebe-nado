@@ -9,13 +9,13 @@
   font-size: 18px;
 }
 .header_menu{
-  padding-right: 10px;
+  padding-right: 4px;
   position: relative;
   left: 2px;
 }
 .header__links-list{
   display: flex;
-  gap: 30px;
+  gap: 33px;
   list-style: circle;
 }
 
@@ -48,4 +48,87 @@
 .header__logo-image{
   width: 148px;
   height: 105px;
+}
+.cover{
+  /* разобраться с кропом */
+  position: relative;
+  padding: 165px 50px 50px;
+/* --mainmain:101%; */
+background-image: url(../images/cover.jpg);
+width: 1100px;
+height: 757px; 
+background-size: cover;
+/* background-size: var(--mainmain) var(--mainmain); */
+background-position: center;
+/* z-index: -2; */
+}
+
+.overlay::before{
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 0;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+
+/* .overlay{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  inset: 0;
+  z-index: -1;
+} */
+.cover__title{
+  position: relative;
+  color: white;
+  letter-spacing: 30px;
+  font-size: 100px;
+}
+.letter-spacing-extended{
+  letter-spacing: 60px;
+}
+.aligned-text_center{
+  line-height: 134px;
+  padding-left: 286px;
+}
+.aligned-text_right{
+  display: block;
+  line-height: 90px;
+  padding-left: 584px;
+  padding-top: 8px;
+}
+.no-letter-spacing{
+  letter-spacing: 0px;
+}
+.cover__description{
+  position: relative;
+  height: 51px;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  justify-content:space-between;
+  /* padding-top: 154px; */
+  padding: 141px 0px 0px 28px;
+}
+.cover__description-text{
+  padding-top: 12px;
+  font-weight: normal;
+  font-size: 22px;
+  word-spacing:20px;
+}
+.cover__description-text span{
+  word-spacing: 18px;
+}
+.bet-button{
+  background: transparent;
+  border: solid 1px white;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  /* padding-right: 32px; */
+  /* padding-bottom: 10px; */
+
+  padding: 12px 32px;
+  /* margin-bottom: 100px; */
+  position: absolute;
+  margin: 0px 0px 20px 716px;
 }
