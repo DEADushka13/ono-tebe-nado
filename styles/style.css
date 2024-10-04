@@ -41,6 +41,7 @@
 
 .header__address {
   padding-left: 148px;
+  font-style: normal;
 }
 
 .address a {
@@ -279,9 +280,6 @@
   font-weight: normal;
   word-spacing: 0.5px;
 }
-
-
-
 
 .footer {
   display: flex;
